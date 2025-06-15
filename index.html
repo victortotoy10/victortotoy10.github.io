@@ -1,7 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hoja de Vida - Victor Totoy</title>
+    <!-- Boxicons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Victor Totoy</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav_item"><a href="#datos" class="nav__link active-link"><i class='bx bx-user nav__icon'></i>Datos</a></li>
+                    <li class="nav_item"><a href="#estudios" class="nav__link"><i class='bx bx-book nav__icon'></i>Estudios</a></li>
+                    <li class="nav_item"><a href="#experiencia" class="nav__link"><i class='bx bx-briefcase nav__icon'></i>Experiencia</a></li>
+                    <li class="nav_item"><a href="#cursos" class="nav__link"><i class='bx bx-certification nav__icon'></i>Cursos</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- Datos personales -->
+        <section class="datos section" id="datos">
+            <div class="datos__container bd-grid">
+                <img src="assets/img/perfil.jpg" alt="Foto de Victor Totoy" class="datos__img">
+                <div>
+                    <h1 class="datos__nombre">Victor Jesus</h1>
+                    <h2 class="datos__apellido">Totoy Iza</h2>
+                    <p class="datos__fecha"><i class='bx bx-calendar'></i> Fecha de nacimiento: 24/11/2004</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Estudios académicos -->
+        <section class="estudios section" id="estudios">
+            <h2 class="section-title">Estudios Académicos</h2>
+            <div class="estudios__container bd-grid">
+                <div class="estudios__item">
+                    <h3>Superior (En curso)</h3>
+                    <p><b>Título:</b> Ing. Ciencias Computacionales</p>
+                    <p><b>Institución:</b> Universidad Politécnica Salesiana</p>
+                    <p><b>Fecha:</b> 2023 - Actual</p>
+                </div>
+                <div class="estudios__item">
+                    <h3>Secundaria</h3>
+                    <p><b>Unidad Educativa:</b> Ciencia y Fe</p>
+                    <p><b>Fecha:</b> 2020 - 2023</p>
+                </div>
+                <div class="estudios__item">
+                    <h3>Primaria</h3>
+                    <p><b>Unidad Educativa:</b> Monseñor Roberto Maria del Pozo
+                    <p><b>Fecha:</b> 2007 - 2020</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experiencia -->
+        <section class="experiencia section" id="experiencia">
+            <h2 class="section-title">Experiencia</h2>
+            <div class="experiencia__container bd-grid">
+                <div class="experiencia__item">
+                    <h3>SOPORTE TÉCNICO</h3>
+                    <p><b>Institución:</b> Panaderia y pasteleria Encanto</p>
+                    <p><b>Actividad:</b> Desarrollo de sitios web y soporte técnico</p>
+                    <p><b>Fecha:</b> 2022 - 2023</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cursos realizados -->
+        <section class="cursos section" id="cursos">
+            <h2 class="section-title">Cursos Realizados</h2>
+            <div class="cursos__container bd-grid">
+                <div class="cursos__item">
+                    <h3>Curso de Python</h3>
+                    <p><b>Institución:</b> Cisco</p>
+                    <p><b>Horas:</b> 30</p>
+                    <p><b>Fecha:</b> 2022</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="assets/js/main.js"></script>
 </body>
+
 </html>
